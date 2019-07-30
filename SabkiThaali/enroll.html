@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="keyBen.css">
+	<link rel="stylesheet" type="text/css" href="flexboxBen.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<title></title>
+	<style type="text/css">
+    .main-header{
+    	position: relative;
+    	z-index: 10;
+    	box-shadow: 1px 2px 22px 1px black;
+    }
+	body{
+	background-image: url("pexels-photo-326397.jpeg");	
+	background-size: cover;
+	background-attachment: fixed;
+
+	}
+	button a{
+color:white;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:green;
+  border: none;
+  border-radius: 15px;
+  font-family: figno;
+
+
+}
+a{
+	text-decoration: none;
+}
+
+.button:hover {background-color: darkgreen;
+
+transform: translateY(-2px);
+font-weight: 900;
+}
+
+.button:active {
+  background-color: green;
+
+  transform: translateY(4px);
+
+}
+	.container{
+		display:-webkit-flex;
+-webkit-justify-content: center;
+		min-height: 50vh;
+		-webkit-align-items: flex-end;
+		flex-wrap: wrap;
+		flex-direction: row;
+
+	}
+	.item1{
+
+
+overflow: hidden;
+width:70%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2px;
+
+	}
+	
+
+
+
+	}
+	.image{
+		height: 100%;
+		
+	}
+	.text1{
+		font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+font-weight: 500;
+font-size: 1em;
+width: 300px; height: 20px; padding: 1px;
+border-radius: 3%;
+
+	}
+
+	.img{overflow: hidden;
+width:26%;
+		
+		margin-left: auto;
+margin-right: auto;
+	}
+	.image1{
+		width: 220px;
+		height: 40px;
+	}
+	.uspass{
+		font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+font-weight: 500;
+font-size: 1em;
+font-color:black;
+overflow: hidden;
+width:70%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+	}
+
+	input[type="text"]{
+		padding: 3.2%;
+		border: black 0px solid;
+		background:#e1e1e1;
+
+	}
+	input[type="date"]{
+		padding: 3.2%;
+		border: black 0px solid;
+		background:#e1e1e1;
+
+	}
+
+.uspass{
+		font-weight: bolder;
+	}
+</style>
+</head>
+<body>
+	
+	<div class="main-header">
+		<h1 class="name"><a href="mainPage.html">Sabki Thaali</a></h1>
+		<ul class="main-nav">
+		<li><a href="mission.html">Mission</a></li>
+	                    <li><a href="KeyBeneficiaries.html">Beneficiaries</a></li>
+	                    <li><a href="enroll.html">Enroll</a></li>
+						<li><a href="ourTeam.HTML">Our Team</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+		</ul>
+	</div>
+
+	<div class="banner">
+		<img class="logo" src="enrollImg.png" alt="City">
+		<h1 class="headline">Enroll</h1>
+	</div>
+
+	<div id="messageSuccess" style="min-height: 100vh;display: none;">Thank You, We'll reach out to you soon.</div>
+	<div id="frr">
+	<div align="center" class="uspass" >Name of company/organization/individual
+	<br>
+
+	<input type="text" name="fname" class="text1"></div>
+
+	<br><br>
+	<div align="center" class="uspass" >Occasion
+	<br>
+
+	<input type="text" name="fname" class="text1"></div>
+	<br><br>
+	<div align="center" class="uspass" >Date
+	<br>
+
+	<input type="date" name="fname" class="text1"></div>
+
+	<br><br>
+	<div align="center" class="uspass" >Contact Details
+	<br>
+
+	<input type="text" name="fname" class="text1"></div>
+	<br><br>
+	<div align="center" class="uspass" >Address
+	<br>
+
+	<input type="text" name="fname" class="text1"></div>
+
+	<br><br>
+	<div align="center" class="uspass" >No. of persons that can be fed
+	<br>
+
+	<input type="text" name="fname" class="text1"></div>
+	<br><br>
+
+	<br>
+
+<div align="center">
+	<button class="button" onclick="myFun()">ENROLL</button>
+</div>
+</div>
+
+<br>
+
+<footer>
+	<div class="box">
+		<h1>FOLLOW US</h1>
+		
+		
+		<img class="social" src="facebook.jpg">
+		<img class="social" src="twitter.jpg">
+		<img class="social" src="instagram.jpg">
+		<img class="social" src="youtube.jpg">
+	</div>
+	<div class="box leftBorder">
+		<h1>CUSTOMER CARE</h1>
+		<h3>Email: info@sabkithaali.com</h3>
+		<h3>Phone: +91 9988776655</h3>
+	</div>
+</footer>
+</body>
+<script type="text/javascript">
+	function myFun(){
+	if(confirm("Save changes and enroll?")){
+
+    window.location.reload();  
+    alert("Dear Contributor,\n Sabki Thali thanks you for using its e-form service. The receipt of your application has been acknowledged. A further communication will be addressed to you in due course.\n\nYour Reference ID : 1234\nRegards,\nAdministrator");
+}
+}
+</script>
+</html>

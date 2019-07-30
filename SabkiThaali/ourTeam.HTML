@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="FirstBase.css">
+	<link rel="stylesheet" type="text/css" href="flexFirst.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" type="text/css" href="keyBen.css">
+<link rel="stylesheet" type="text/css" href="flexboxBen.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+	<title></title>
+	<style>
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	@font-face {
+    	font-family: lulu;
+    	src: url(Occupied.otf);
+
+	}
+	@font-face {
+    	font-family: figno;
+    	src: url(Figno-Regular.otf);
+	}
+	.frm{
+		font-family: lulu;
+		margin-left:5%;
+	}
+
+	.frm h1{
+		margin: 1% 0%;
+	}
+	input[type="text"]{
+		font-size: 1vw;
+		padding: 0.8vw;
+		border: black 0px solid;
+		background:#e1e1e1;
+
+	}
+	input[type="submit"]{
+		background:white;
+		font-family: lulu;
+		border: black 1px solid;
+		font-size: 1vw;
+		padding: 0.75vw;
+	}
+	input[type="submit"]:hover{
+		background:black;
+		color: white;
+	}
+	hr{
+		width: 50%;
+	}
+	.main-header{
+		box-shadow: 1px 2px 22px 1px black;
+	}
+	.heading{
+		font-weight: 100;
+		font-family: figno;
+		text-align: center;
+	}
+	.slideshow{
+		width: 100%;
+		position:  relative;
+	}
+	.slides{
+		width: 100%;
+	}
+	hr{
+		margin: auto auto;
+	}
+	.boxes{
+		width:30%;
+		display: inline-block;
+		text-align: center;
+		vertical-align: top;
+		margin-bottom:2%;
+		padding: 2%;
+	}
+	.picTeam{
+		border-radius:50%;
+		display: block;
+		margin: auto; 
+		width: 18em;
+	}
+	.wrapper{
+		text-align: center;
+		width: 80%;
+		margin: auto;
+		padding: 0.5%;
+	}
+	.boxes{
+		padding: 2%;
+	}
+	.boxes:hover{
+		box-shadow: 0px 0px 50px 0.5px black;
+	}
+	.namePerson{
+		color: black;
+	}
+	.namePerson{
+		font-size: 2.5vw;
+	}
+
+	body{
+		min-height: 100vh;
+	}
+	.frm{
+		min-height: 90vh;
+	}
+	@font-face{
+			font-family: arvin;
+			src:url(ArvinLight.ttf);
+		}
+	.boxes h3{
+		font-family: arvin;
+	}
+	.namePerson{
+		font-size:2.2em;
+	}
+	.heading{
+		font-size:4.5em;
+	}
+	@media (max-width: 800px){
+		.boxes{
+			width: 80%;
+			display: block;
+			margin:auto;
+		}
+		
+	}
+	.frm{
+		width: 80%;
+		margin:2.5% auto;
+		border-radius: 2%;
+	}
+	.main-header{
+    	position: relative;
+    	z-index: 10;
+    	box-shadow: 1px 2px 22px 1px black;
+    }
+	</style>
+</head>
+<body>
+	<div class="main-header">
+		<h1 class="name"><a href="mainPage.html">Sabki Thaali</a></h1>
+		<ul class="main-nav">
+		<li><a href="mission.html">Mission</a></li>
+	                    <li><a href="KeyBeneficiaries.html">Beneficiaries</a></li>
+	                    <li><a href="enroll.html">Enroll</a></li>
+						<li><a href="ourTeam.HTML">Our Team</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+		</ul>
+	</div>
+	<div class="banner">
+		<img class="logo" src="team.png" alt="City">
+		<h1 class="headline">Our Team</h1>
+	</div>
+
+<br>
+<div class="row">		
+		<div class="secondary col">
+			<h2>The Changemakers</h2>
+			
+			<p>At a tender age of life we are taught in schools, “The sharing of food is the basis of social life”. Inspired by this adage, <strong>Harsh Agarwal</strong>, a bright , young and energetic individual is determined to save the community from starvation. He started on this journey by collecting leftover food from his neighbourhood and giving it to the needy. This was the dawn of “Fight against Hunger” a.k.a. <strong>“Sabki Thaali”</strong>.
+ <br>
+ <br>
+ <strong>Ridham Bhagat</strong>, Co-founder of “Sabki Thaali” is driven with an extraordinary passion for what he believes in. He is spontaneous, lives fully in the moment, and wants to bridge very lacuna with technology based solutions.
+ <br>
+ <br>
+ Their mission is to sensitize people to their rights and duties vis-a-vis society. Through their dream and passion, they have inspired many likeminded individuals and made a difference to the life and nutritional status of countless others.
+ <br>
+ </p>		
+ <br>
+</div>
+	</div>
+<br>
+ <br> 
+ <div class="wrapper">
+ 		<div class="boxes">
+			<img class="picTeam" src="harsh.png">
+			<h3 class="namePerson">Harsh Agrawal</h3>
+		</div>
+		<div class="boxes">
+			<img class="picTeam" src="ridham.jpg">
+			<h3 class="namePerson"> Ridham Bhagat</h3>
+		</div>
+	</div>
+	<br>
+	<br>
+<footer>
+	<div class="box">
+		<h1>FOLLOW US</h1>
+		
+		
+		<img class="social" src="facebook.jpg">
+		<img class="social" src="twitter.jpg">
+		<img class="social" src="instagram.jpg">
+		<img class="social" src="youtube.jpg">
+	</div>
+	<div class="box leftBorder">
+		<h1>CUSTOMER CARE</h1>
+		<h3>Email: info@sabkithaali.com</h3>
+		<h3>Phone: +91 9988776655</h3>
+	</div>
+</footer>
+</body>
+</html>

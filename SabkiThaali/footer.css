@@ -1,0 +1,53 @@
+@font-face {
+    	font-family: lulu;
+    	src: url(Occupied.otf);
+
+	}
+footer{
+		background:black;
+		color: white;
+		/*padding: 0% 2.5%;*/
+		padding-top:0.25%; 
+		font-family: lulu;
+		padding-bottom: 0.25%;
+	}
+	footer div{
+		vertical-align: top;
+	}
+		footer h1{
+		font-size:1.2em;
+		color:white;
+	}
+	footer h3{
+		font-size:0.85em;
+		color:white;
+	}
+
+
+		.box{
+		display: inline-block;
+		width: 40%;
+	}
+		.leftBorder{
+		border-left:1px solid white;
+	}
+/*		.social{
+		width: 10%;
+	}*/
+	footer img{
+		/*width: 20em;*/
+	}
+		.box{
+		padding: 0% 2.5%;
+	}
+
+footer h3,h1{
+	margin-bottom: 0;
+}
+
+.social:hover{
+	transform: translateY(-2px);
+}
+.social{
+	height: 3.5vh;
+}
